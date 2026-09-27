@@ -1,16 +1,67 @@
-# React + Vite
+# 🚀 Job Skill Extraction from Job Descriptions using NLP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based frontend web application that allows users to enter a job description and identify relevant skills using a predefined skill taxonomy.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 https://jobskillextraction.netlify.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Project Overview
 
-## Expanding the ESLint configuration
+**Job Skill Extraction from Job Descriptions using NLP** is an interactive web application developed as part of my internship project.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application provides a simple interface where users can enter a job description and view the extracted skills in an organized and easy-to-understand format.
+
+---
+
+## ✨ Key Features
+
+- 📝 Enter or paste a job description
+- 🔍 Extract relevant skills
+- 🏷️ Display extracted skills as skill badges
+- 📊 View skill analytics by category
+- 🗂️ Categorize skills into different technology domains
+- 🌙 Light/Dark mode
+- 🔐 Login and Logout functionality
+- 📱 Responsive and user-friendly interface
+- ℹ️ About section explaining the project
+
+---
+
+## 🧠 Skill Categories
+
+The application supports skills across multiple categories, including:
+
+- Programming
+- Web Development
+- Database
+- BI & Analytics
+- Cloud
+- AI & Machine Learning
+- NLP
+- DevOps
+- Testing
+- Networking
+- Cybersecurity
+- Marketing
+- Data Engineering
+
+---
+
+## 🔄 How It Works
+
+User enters Job Description
+          ↓
+Text Processing
+          ↓
+Skill Matching
+          ↓
+Skill Normalization
+          ↓
+Skill Categorization
+          ↓
+Extracted Skills
+          ↓
+Skill Analytics
